@@ -1,3 +1,77 @@
-body {
+.top-row {
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.red-box {
+    height: 130px;
+    width: 32%;
+    background-color: #F0223D;
+
+}
+.blue-box {
+    height: 130px;
+    width: 32%;
+    background-color: #145FD9;
+}
+.black-box {
+    height: 130px;
+    width: 32%;
     background-color: black;
 }
+.text {
+    margin: 40px 10px;
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.middle-row {
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    content: space-between;
+    justify-content: space-around;
+}
+.red-box-middle {
+    height: 250px;
+    width: 32%;
+    background-color: #F0223D;
+    flex: 1;
+
+}
+.blue-box-middle {
+    height: 250px;
+    width: 32%;
+    background-color: #145FD9;
+    flex: 2;
+}
+.bottom-row {
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.red-box-bottom {
+    height: 130px;
+    width: 32%;
+    background-color: #F0223D;
+    flex: 1
+
+}
+.blue-box-bottom {
+    height: 130px;
+    width: 32%;
+    background-color: #145FD9;
+    flex: 12;
+}
+.black-box-bottom {
+    height: 130px;
+    width: 32%;
+    background-color: black;
+    flex: 6;
